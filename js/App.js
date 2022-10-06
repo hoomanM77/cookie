@@ -1,6 +1,6 @@
 window.addEventListener('load',()=>{
     if(!document.cookie && !authorizeCookie()){
-        location.href='effervescent-kashata-846664.netlify.app/login.html'
+        location.href='/login.html'
     }
 })
 const authorizeCookie=()=>{
